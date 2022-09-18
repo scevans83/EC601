@@ -36,7 +36,7 @@ Although artificial intelligence has been used in fracture detection for several
 
 However, in a typical clinical research setting, the incidence of fracture-positive scans would generally be much lower, and upon extrapolating the sample size and results to a dataset with a lower fracture incidence, accuracy rates decreased significantly for both radiologists and CNN [5]. In any case, further research will be needed to refine the CNN. 
 
-Despite this limitation, the study showed promise for using artificial intelligence to detect cervical fractures. The CNN was able to process each scan and produce results in approximately one-fifth of the time that a radiologist needed to perform the same task. In addition, as seen in Figure 1, the study showed likely locations of false results from the CNN, allowing doctors to examine those areas more critically while ruling out unlikely fracture locations. Thus, even with the lower accuracy rates of the demonstrated model, the CNN would still be able to save time in clinical settings. 
+Despite this limitation, the study showed promise for using artificial intelligence to detect cervical fractures. The CNN was able to process each scan and produce results in approximately one-fifth of the time that a radiologist needed to perform the same task [5]. In addition, as seen in Figure 1, the study showed likely locations of false results from the CNN, allowing doctors to examine those areas more critically while ruling out unlikely fracture locations [5]. Thus, even with the lower accuracy rates of the demonstrated model, the CNN would still be able to save time in clinical settings. 
 
 ### Current Open-Source Solutions
 
@@ -51,11 +51,19 @@ In conclusion, the use of machine learning and artificial intelligence to detect
 ### References
 
 [1] J. Lasfargues, D. Custis, F. Morrone, J. Carswell and T. Nguyen, "A model for estimating spinal cord injury prevalence in the United States", Spinal Cord, vol. 33, no. 2, pp. 62-68, 1995. Available: 10.1038/sc.1995.16 [Accessed 18 September 2022].
+
 [2] "Computed Tomography (CT)", Nibib.nih.gov, 2022. [Online]. Available: https://www.nibib.nih.gov/science-education/science-topics/computed-tomography-ct. [Accessed: 18- Sep- 2022].
+
 [3] C. Yeo, I. Jeon and S. Kim, "Delayed or Missed Diagnosis of Cervical Instability after Traumatic Injury: Usefulness of Dynamic Flexion and Extension Radiographs", Korean Journal of Spine, vol. 12, no. 3, p. 146, 2015. Available: 10.14245/kjs.2015.12.3.146 [Accessed 18 September 2022].
+
 [4] M. Yamashita et al., "Mortality and complications in elderly patients with cervical spine injuries", Injury, vol. 53, no. 6, pp. 2114-2120, 2022. Available: 10.1016/j.injury.2022.04.015 [Accessed 18 September 2022].
+
 [5] S. Saha, “A comprehensive guide to Convolutional Neural Networks - the eli5 way,” Medium, 17-Dec-2018. [Online]. Available: https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53. [Accessed: 18-Sep-2022]. 
+
 [6] J. Small, P. Osler, A. Paul and M. Kunst, "CT Cervical Spine Fracture Detection Using a Convolutional Neural Network", American Journal of Neuroradiology, vol. 42, no. 7, pp. 1341-1347, 2021. Available: 10.3174/ajnr.a7094 [Accessed 18 September 2022].
+
 [7] C. Ounkomol, S. Seshamani, M. M. Maleckar, F. Collman, and G. R. Johnson, “Label-free prediction of three-dimensional fluorescence images from transmitted-light microscopy,” Nature Methods, vol. 15, no. 11, pp. 917–920, 2018. 
+
 [8] Y. Wang and M. Kosinski, "Deep neural networks are more accurate than humans at detecting sexual orientation from facial images.", Journal of Personality and Social Psychology, vol. 114, no. 2, pp. 246-257, 2018. Available: 10.1037/pspa0000098 [Accessed 18 September 2022].
+
 [9] V. Slaykovskiy, "PyTorch-EffNetV2 vertebrae detection (acc: 0.95)", RSNA 2022 Cervical Spine Fracture Detection | Kaggle, 2022. Available: https://www.kaggle.com/embed/vslaykovsky/pytorch-effnetv2-vertebrae-detection-acc-0-95
