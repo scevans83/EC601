@@ -31,7 +31,7 @@ Although artificial intelligence has been used in fracture detection for several
 ![Images showing the location of false-negative and -positive results for radiologists and the CNN [5]. Each red dot represents a false result.](https://user-images.githubusercontent.com/60391096/190924194-838c897d-7f0c-4890-9bf2-c17141c5751b.png)
 
  
-> **Fig 1** Images showing the location of false-negative and -positive results for radiologists and the CNN. Each red dot represents a false result. (citation needed)
+> **Fig 1** Images showing the location of false-negative and -positive results for radiologists and the CNN. Each red dot represents a false result.
 
 
 
@@ -44,7 +44,11 @@ Despite this limitation, the study showed promise for using artificial intellige
 
 This topic is also a growing source of interest in open-source communities. Another facet that is being explored is the issue of localizing fractures or determining in which of the seven cervical vertebrae a fracture is located. Radiologists, neurologists, neurosurgeons, and other medical professionals use their knowledge of cervical anatomy to reliably determine which vertebra a given “slice” is depicting. However, depending on the specialty of the medical professional in question, they may not be as accurate in estimating the location within the cervical spine. In this case, they would generally rely on labels placed by a radiologist, which increases the time before a patient can receive stabilizing care. Use of artificial intelligence to provide locating information on CT scans would help to minimize this effect. 
 
-On the Kaggle contest page “RSNA 2022 Cervical Spine Fracture Detection”, Vladimir Slaykovskiy posted a toolset to identify the location or a given CT image within the cervical spine, with a claim of 95% accuracy [9]. Their program uses EfficientNet-V2 convolutional neural networks as a basis for the multi-label classification models and produces vertebrae predictions.
+On the Kaggle contest page “RSNA 2022 Cervical Spine Fracture Detection”, Vladimir Slaykovskiy posted a toolset to identify the location or a given CT image within the cervical spine [9]. Their program uses EfficientNet-V2 convolutional neural networks as a basis for the multi-label classification models and produces vertebrae predictions with 95% accuracy [9]. In addition, when running the models, it can produce plots of which vertebrae each slice is predicted to be (Fig 2). 
+
+![**Fig 2**](https://user-images.githubusercontent.com/60391096/190927554-d9860a95-3c95-44df-a72c-1cacd0231b92.png)
+
+> **Fig 2** A line plot showing predicted vertebra by slice location. Each colored line represents a the percent of predictions for a given vertebra (Y-axis). The slice numbers are in increasing order along the X-axis, such that they represent a view of the cervical spine on a patient lying horizontally.
 
 ### Conclusion
 
